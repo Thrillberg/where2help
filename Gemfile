@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.3.1'
 
-gem 'rails', '5.0.0.1'
+gem 'rails', '~> 5.0.0.1'
 gem 'pg'
 gem 'puma'
 gem 'sass-rails'
@@ -38,7 +38,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'rspec-json_expectations'
   gem 'factory_girl_rails'
-  gem 'rails-controller-testing', "1.0.1"
+  gem 'rails-controller-testing', "~> 1.0.1"
   gem "better_errors"
   gem "binding_of_caller"
 end
